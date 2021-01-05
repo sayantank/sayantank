@@ -29,8 +29,8 @@ export default function Home() {
         >
           <Image
             src="/images/github.png"
-            height={10}
-            width={10}
+            height={32}
+            width={32}
             layout="responsive"
             alt="Github"
           />
@@ -43,8 +43,8 @@ export default function Home() {
         >
           <Image
             src="/images/linkedin.png"
-            height={10}
-            width={10}
+            height={32}
+            width={32}
             layout="responsive"
             alt="Linkedin"
           />
