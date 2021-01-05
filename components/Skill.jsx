@@ -6,7 +6,7 @@ const Skill = ({ data: { title, list } }) => {
         {list.map((skill, i) => (
           <li
             key={i}
-            className="mb-1 font-medium font-sans text-base text-gray-800"
+            className="mb-1 font-medium font-sans text-base lg:text-lg text-gray-800"
           >
             {skill}
           </li>
