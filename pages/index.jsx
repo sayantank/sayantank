@@ -125,7 +125,7 @@ export default function Home() {
       <div className="p-10 flex flex-col items-center space-y-1 justify-center">
         <a
           href="mailto:sayantankarmakar@outlook.com"
-          className="no-underline hover:underline text-sm lg:text-base text-black font-light"
+          className="lg:no-underline lg:hover:underline text-sm lg:text-base text-black font-light"
         >
           sayantankarmakar@outlook.com
         </a>
