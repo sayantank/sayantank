@@ -45,7 +45,10 @@ export default function Home() {
           property="og:description"
           content="Freelance Web Developer, UI/UX Designer and Javascript enthusiast."
         />
-        <meta property="og:image" content="/images/sayantank.png" />
+        <meta
+          property="og:image"
+          content="https://sayantank.vercel.app/images/sayantank.png"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://sayantank.vercel.app/" />
@@ -57,7 +60,10 @@ export default function Home() {
           property="twitter:description"
           content="Freelance Web Developer, UI/UX Designer and Javascript enthusiast."
         />
-        <meta property="twitter:image" content="/images/sayantank.png" />
+        <meta
+          property="twitter:image"
+          content="https://sayantank.vercel.app/images/sayantank.png"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
