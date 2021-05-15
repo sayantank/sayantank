@@ -1,21 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
+
+body {
+  background-color: #0d1017;
+}
+
 @tailwind base;
 @layer base {
-  h1 {
-    @apply font-sans text-3xl lg:text-4xl text-black font-extrabold;
+  .title {
+    @apply capitalize tracking-widest;
   }
-  h2 {
-    @apply font-sans text-2xl lg:text-3xl text-black font-bold;
-  }
-  h3 {
-    @apply font-sans text-xl lg:text-2xl text-black font-semibold;
-  }
-  a {
-    @apply text-base lg:text-lg font-bold underline;
+
+  .bold-white {
+    @apply font-medium text-w-1;
   }
 }
 @tailwind components;
 @tailwind utilities;
+
+.img-border {
+  border: 3px solid #f0f6fc !important;
+}
 
 /* @font-face {
   font-family: "Inter";

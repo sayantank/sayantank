@@ -4,12 +4,21 @@ module.exports = {
   purge: ["./pages/**/*.jsx", "./components/**/*.jsx"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      "w-1": "#F0F6FC",
+      "w-2": "#C9D1D9",
+      "w-3": "#AFBAC5",
+      "w-4": "#8B939E",
+      "w-5": "#6E7681",
+      "b-5": "#484F58",
+      "b-4": "#30373D",
+    },
+    fontFamily: {
+      sans: ["Work Sans", "sans-serif"],
+    },
     extend: {
-      fontFamily: {
-        sans: ["Inter", "sans-serif"],
-      },
       spacing: {
-        108: "52rem",
+        108: "64rem",
       },
     },
   },

@@ -1,5 +1,4 @@
 import RegularLayout from "@/layouts/RegularLayout";
-import Image from "next/image";
 import Head from "next/head";
 
 import EduData from "../data/education";
@@ -14,6 +13,7 @@ import Workex from "@/components/Workex";
 import Service from "@/components/Service";
 import Project from "@/components/Project";
 import SEO from "@/components/SEO";
+import Me from "@/components/Me";
 
 const Bold = ({ children }) => {
   return <span className="font-extrabold">{children}</span>;
@@ -24,37 +24,8 @@ export default function Home() {
     <>
       <SEO />
       <RegularLayout>
-        <div className="flex justify-center lg:justify-end space-x-5">
-          <a
-            href="https://www.github.com/sayantank"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="h-8 w-8"
-          >
-            <Image
-              src="/images/github.png"
-              height={32}
-              width={32}
-              layout="responsive"
-              alt="Github"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sayantan-karmakar-2ba3b4184/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="h-8 w-8"
-          >
-            <Image
-              src="/images/linkedin.png"
-              height={32}
-              width={32}
-              layout="responsive"
-              alt="Linkedin"
-            />
-          </a>
-        </div>
-        <div className="flex flex-col space-y-8">
+        <Me />
+        {/* <div className="flex flex-col space-y-8">
           <Image
             src="/images/dp.jpeg"
             alt="Sayantan Karmakar"
@@ -136,7 +107,7 @@ export default function Home() {
           <p className="text-sm lg:text-base text-black font-light">
             Sayantan Karmakar, 2021.
           </p>
-        </div>
+        </div> */}
       </RegularLayout>
     </>
   );
