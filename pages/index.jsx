@@ -14,6 +14,8 @@ import Service from "@/components/Service";
 import Project from "@/components/Project";
 import SEO from "@/components/SEO";
 import Me from "@/components/Me";
+import Intro from "@/components/Intro";
+import Divider from "@/components/Divider";
 
 const Bold = ({ children }) => {
   return <span className="font-extrabold">{children}</span>;
@@ -25,6 +27,8 @@ export default function Home() {
       <SEO />
       <RegularLayout>
         <Me />
+        <Intro />
+        <Divider />
         {/* <div className="flex flex-col space-y-8">
           <Image
             src="/images/dp.jpeg"

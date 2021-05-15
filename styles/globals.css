@@ -13,12 +13,22 @@ body {
   .bold-white {
     @apply font-medium text-w-1;
   }
+
+  .para {
+    @apply text-w-3 lg:text-lg;
+  }
 }
 @tailwind components;
 @tailwind utilities;
 
 .img-border {
   border: 3px solid #f0f6fc !important;
+}
+
+.divider {
+  width: 100%;
+  height: 48px;
+  background-color: #151b22;
 }
 
 /* @font-face {

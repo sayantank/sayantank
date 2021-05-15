@@ -12,13 +12,14 @@ module.exports = {
       "w-5": "#6E7681",
       "b-5": "#484F58",
       "b-4": "#30373D",
+      red: "#FF0000",
     },
     fontFamily: {
       sans: ["Work Sans", "sans-serif"],
     },
     extend: {
       spacing: {
-        108: "64rem",
+        108: "54rem",
       },
     },
   },
